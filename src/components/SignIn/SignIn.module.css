@@ -1,0 +1,131 @@
+.login {
+    margin: 30px auto;
+    max-width: 600px;
+    width: 100%;
+    background-color: #010606;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.login-text {
+    font: 30px sans-serif;
+    color: #019a5a;
+    font-weight: 600;
+}
+
+.login-form {
+    width: 100%;
+} 
+
+.input-group {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.input-group label {
+    font: 17px sans-serif;
+    color: #019a5a;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-group input {
+    font: 17px sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+.invalid label {
+    font: 17px sans-serif;
+    color: #b40e0e;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+
+.input-group input:focus {
+    outline: none;
+    border: 2px solid #01BF71;
+}
+
+.invalid {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.invalid input {
+    outline: none;
+    border: 2px solid #fff;
+    font: 17px sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #b40e0e;
+    background-color: #fddddd;
+}
+
+.login-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-button button {
+    border: 1px solid #01BF71;
+    background-color: #01BF71;
+    color: #fff;
+    font: 18px sans-serif;
+    padding: 12px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-button button:hover {
+    background-color: #fff;
+    color: #010606;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #01BF71;
+}
+
+.login-button button:disabled{
+    background-color: #222;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.create-account {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.create-account p {
+    margin-right: 10px;
+    
+    color: #fff;
+    font: 13px sans-serif;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: blue;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+.error-text {
+    color: #b40e0e;
+  }

@@ -1,0 +1,166 @@
+.departmentItem {
+    cursor: pointer;
+    width: 16%;
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 130px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.department-icon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.departmentItem:hover {
+    box-shadow: 0px 0px 5px #666;
+}
+
+.muhasibat {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: rgba(153, 102, 255);
+}
+
+.it-web {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: rgba(255, 99, 132);
+}
+
+.it-rm {
+    color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(54, 162, 235);
+}
+
+.logistika {
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(75, 192, 192);
+}
+
+.insaat {
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 159, 64);
+}
+
+.human-resourse {
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 206, 86);
+}
+
+.department-count {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.span-count {
+    display: flex;
+    align-items: center;
+}
+
+.AF {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.WEB {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.HR {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.RM {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.LP {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.CE {
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(153, 102, 255);
+}
+
+.department-text {
+    display: flex;
+    align-items: baseline;
+}

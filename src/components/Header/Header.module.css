@@ -1,0 +1,133 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 80px;
+    background-color: #010606;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.header-login {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #010606;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.logo-text {
+    margin-left: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.header nav {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header nav ul{
+    height: 100%;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li {
+    margin-left: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.header nav ul li a:active,
+.header nav ul li a.active {
+    border-bottom: 3px solid #01BF71;
+    transition: all 0.2s ease-in-out;
+}
+
+.header nav ul li a:hover {
+    color: #01BF71;
+}
+
+.header-button button {
+    background-color: transparent;
+    font: 16px sans-serif;
+    color: #fff;
+    padding: 10px 35px;
+    background-color: #01BF71;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.header-button button:hover{
+    background-color: #fff;
+    color: #010606;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-account {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.my-account span {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 16px sans-serif;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.setting{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-exit {
+    font-size: 16px;
+}
+
+.header-exit:hover {
+    color: #01BF71;
+}
